@@ -27,6 +27,7 @@
                 else if (a == b && c > a) Console.WriteLine($"{c}>{a}={b}");
                 else if (a == b && a == c) Console.WriteLine($"{a}={b}={c}");
                 else Console.WriteLine($"{c}>{b}>{a}");
+                Console.WriteLine("end");
             }
         }
     }
